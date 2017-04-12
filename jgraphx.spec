@@ -22,7 +22,7 @@
 
 Name:           %{?scl_prefix}jgraphx
 Version:        3.1.2.0
-Release:        %{custom_release}.2%{?dist}
+Release:        %{custom_release}.3%{?dist}
 Summary:        Java Graph Drawing Component
 
 Group:          Development/Libraries
@@ -96,6 +96,9 @@ popd
 %endif
 
 %changelog
+* Tue Jan 17 2017 Jie Kang <jkang@redhat.com> - 3.1.2.0-3
+- Rebuild for RHSCL 2.4.
+
 * Mon Jun 27 2016 Severin Gehwolf <sgehwolf@redhat.com> - 3.1.2.0-2
 - Be sure to use 3 parts in BSN only.
 
